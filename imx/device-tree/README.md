@@ -16,7 +16,7 @@ Example file hierarchy:
 
 ## Sintax
 Device Tree syntax is based on a simple, C-like declarative format. The source files usually have .dts or .dtsi extensions.
-
+```c
 / {
     node-name@unit-address {
         property-name = "value";
@@ -27,3 +27,4 @@ Device Tree syntax is based on a simple, C-like declarative format. The source f
         };
     };
 };
+```
