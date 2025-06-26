@@ -16,6 +16,7 @@ Example file hierarchy:
 
 ## Sintax
 Device Tree syntax is based on a simple, C-like declarative format. The source files usually have .dts or .dtsi extensions.
+More info here: https://events.static.linuxfound.org/sites/events/files/slides/petazzoni-device-tree-dummies.pdf
 ```c
 / {
     node-name@unit-address {
