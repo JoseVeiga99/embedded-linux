@@ -48,18 +48,18 @@ Where:
 
 Each node has a set of properties associated with it:
 
-    Null-terminated text strings are wrapped with double quotes:
-        a-string-property = "a string";
+- Null-terminated text strings are wrapped with double quotes:
+    - a-string-property = "a string";
 
-    Cells (32-bit unsigned integers) are space-delimited and wrapped with angle brackets:
-        a-cell-property = <1 2 3>;
+Cells (32-bit unsigned integers) are space-delimited and wrapped with angle brackets:
+    a-cell-property = <1 2 3>;
 
-    Binary data is space-delimited and wrapped with square brackets:
-        a-binary-property = [0x01 0x02 0x03];
+Binary data is space-delimited and wrapped with square brackets:
+    a-binary-property = [0x01 0x02 0x03];
 
-    Mixed representation data can be concatenated using commas:
-        a-mixed-property = "a string", [0x01 0x02 0x03], <1 2 3>;
+Mixed representation data can be concatenated using commas:
+    a-mixed-property = "a string", [0x01 0x02 0x03], <1 2 3>;
 
-    Commas are also used to create string lists:
-        a-string-list = "first string", "second string";
+Commas are also used to create string lists:
+    a-string-list = "first string", "second string";
 
